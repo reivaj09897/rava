@@ -45,7 +45,7 @@
 			</div>
 			
 			<div  class="enter" >
-				<input type="button" value="Jugar" id="btn" class="botones" onclick="location.href=('buscar_examen.php'); click()"/>
+				<input type="button" value="Jugar" id="btn" class="botones" onclick="location.href=('buscar_examen.php')"/>
 				<br> <br>
 				<!--<input type="button" value="Elegir examen" id="btn"class="botones"  onclick="location.href=('menu_modos.html')"/>
 				<br> <br>-->
@@ -89,4 +89,4 @@
 				
 				
 				
-</html>				
+</html>	
