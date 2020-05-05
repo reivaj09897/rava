@@ -1,8 +1,9 @@
 <html>
 <head>
-<title > hola</title>
+<title> </title>
 </head>
-<body>
-<h1>chau</hi>
+<cuerpo>
+<input type="button" value="Iniciar"  onclick="location.href=('menu_principal.html'); click()"/>
+
 </body>
 </html>
