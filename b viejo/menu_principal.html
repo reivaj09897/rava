@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+	<head>
+		<title> </title>
+	</head>
+	<body>
+<?php
+//conexionfz(); //cambiar conexionfz/conexionxp al usar filezilla o xampp
+
+function conexionfz() {
+$servername = "localhost";
+$username = "dbu_t23m05";
+$password = "mks9s82s";
+$basedatos = "db_t23m05";
+conectar($servername, $username, $password, $basedatos);
+}
+function conexionxp() {
+$servername = "localhost";
+$username = "root";
+$password = "";
+$basedatos = "";
+conectar($servername, $username, $password, $basedatos); // como argumento puede ponerse cualquier valor, no es necesario que se llame la variable igual
+}
+function conectar($servername, $username, $password, $basedatos){
+// Create connection
+$conn = new mysqli($servername, $username, $password, $basedatos);
+	
+// Check connection
+if ($conn->connect_error) {
+    die("La conexion ha fallado: " . $conn->connect_error);
+	} else {
+	echo "Conectado con éxito";
+	}
+}
+	?>
+		<script src="funcion1.js"></script>
+		<h1> Test Exam Game </h1>
+		<section>
+		  <input type="button" value="Iniciar sesion" onclick="location.href=('iniciarsesion.html')" />
+		  <br> <br>
+		
+		  <input type="button" value="Jugar" onclick="location.href=('jugar.html')"/>
+		  <br> <br>
+		  <input type="button" value="Niveles"onclick="location.href=('menu_niveles.html')"/>
+		  <br> <br> 
+		  <input type="button" value="Modos" onclick="location.href=('menu_modos.html')"/>
+		  <br> <br>
+		  <input type="button" value="Ajustes" onclick= "location.href=('menu_ajustes.html')"/>
+		  <br> <br>
+          <input type="button" value="Crear examen" onclick="location.href=('menu_crearexamen.html')"/>
+		  <br> <br>
+		  
+		</section>
+	</body>
+</html>

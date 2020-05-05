@@ -1,0 +1,71 @@
+.formu{
+border-radius: 30px;
+
+}
+
+body{
+  font-family: 'Baloo Tamma', cursive;
+  background: $clr-blue;
+}
+
+
+
+#busc{
+	
+	width: 400px;
+	height: 480px; 
+    margin: 40px auto;
+    text-decoration: none;
+	font-size: 25px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 300;
+    color: #006505;
+    background-color: #ffCCCC;
+	opacity:90%;
+    border-radius: 30px;
+    border: 5px #006505;
+    background: -webkit-linear-gradient( #6666cc, #ccccff );
+	
+}
+
+#btn {
+  padding: .3rem 1rem;
+  border: 1px solid #333366;
+  border-radius: 30px;
+  background: #ccccff;
+  color: #ccfff;
+  font-size: 1.3rem;
+  font-family:serif;
+  text-shadow: 0 0px 0 rgba(0,0,0,.5);
+  box-shadow: 0 1px 0 rgba(255,255,255,.5) inset, 0 1px 3px rgba(0,0,0,.2);
+  margin:1px;
+  width: 90px;
+  background-image: -webkit-linear-gradient(top, #ccccff, #6666cc);
+  background-image: -moz-linear-gradient(top, #ccccff, #6666cc);
+  background-image: -ms-linear-gradient(top, #ccccff, #6666cc);
+  background-image: -o-linear-gradient(top, #ccccff, #6666cc);
+  background-image: linear-gradient(to bottom, #ccccff, #6666cc);
+  
+}
+
+#btn:hover, .btn:focus {
+  background-color: #cc99ff;
+  background-image: -webkit-linear-gradient(top, #6633cc, #3333cc);
+  background-image: -moz-linear-gradient(top, #6633cc, #3333cc);
+  background-image: -ms-linear-gradient(top, #6633cc, #3333cc);
+  background-image: -o-linear-gradient(top, #6633cc, #3333cc);
+  background-image: linear-gradient(to bottom, #6633cc, #3333cc);
+    width: 22%;
+    height: 35px;
+    margin: 0 auto;
+	
+
+}
+
+#btn:active {
+  background-color: #663300;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+  
+}

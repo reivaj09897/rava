@@ -1,0 +1,163 @@
+#meter {
+    position: relative;
+    width:50px;
+    box-sizing: border-box;
+}
+ 
+#meter #bar {
+    height: 20px;
+    background: #555;
+    border-radius: 20px;
+    box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    padding: 5px;
+    width:100%;
+    
+}
+ 
+.meter .num {
+    color:red;
+    position: relative;    
+    top:-30px;
+    text-align:center;
+    font-weight:bold;
+    font-family:Arial;
+    padding: 0px auto;
+    width:100%;
+    
+}
+ #meter #bar span {
+    display: none;
+    height: 100%;
+    width:100%;
+    border-radius: 10px;
+    background-color: rgb(136,150,255);
+    box-shadow:
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+     
+}
+ 
+
+.botoncito{
+	padding: .4rem 1rem;
+  border: 1px solid #333366;
+  border-radius: 30px;
+  background: #ccccff;
+  color: #ccfff;
+  font-size: 1.3rem;
+  font-family:serif;
+  text-shadow: 0 0px 0 rgba(0,0,0,.5);
+  box-shadow: 0 1px 0 rgba(255,255,255,.5) inset, 0 1px 3px rgba(0,0,0,.2);
+  margin:5px;
+  
+  width: 400px;
+  background-image: -webkit-linear-gradient(top, #ccccff, #6666cc);
+  background-image: -moz-linear-gradient(top, #ccccff, #6666cc);
+  background-image: -ms-linear-gradient(top, #ccccff, #6666cc);
+  background-image: -o-linear-gradient(top, #ccccff, #6666cc);
+  background-image: linear-gradient(to bottom, #ccccff, #6666cc);
+  }
+  
+  .botoncito:hover, .btn:focus {
+  background-color: #cc99ff;
+  background-image: -webkit-linear-gradient(top, #6633cc, #3333cc);
+  background-image: -moz-linear-gradient(top, #6633cc, #3333cc);
+  background-image: -ms-linear-gradient(top, #6633cc, #3333cc);
+  background-image: -o-linear-gradient(top, #6633cc, #3333cc);
+  background-image: linear-gradient(to bottom, #6633cc, #3333cc);
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+	
+
+}
+
+.botoncito:active {
+  background-color: #663300;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+  
+}
+#juego {
+	
+	  width: 450px ;
+      margin: 0px auto;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: red;
+    background-color: #99FCC;
+    border-radius: 30px;
+    border: 3px double #006505;
+	
+	
+	
+	
+}
+  
+.div1{
+     
+	  width: 450px ;
+      margin: 0px auto;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #ccccff;
+    background-color: #99FCC;
+    border-radius: 30px;
+    border: 5px double #006505;
+
+  }
+.div{
+      
+	  width: 800px ;
+    height: 400px;
+      margin: 10px auto;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: -10px;
+    padding-right: 60px;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #ccccff;
+   
+  }
+.divboton{
+      
+	  width:900px ;
+      margin: 10px 31%;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 400px;
+    padding-right: 40px;
+    font-weight: 600;
+    font-size: 5px;
+    font-style: italic;
+    color: #006505;
+
+}
+    .boton trasparente {
+	 width: 50.33%;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    background-color:  transparent;
+    border-radius: 15px;
+    border: 3px double white;
+  
+  }
